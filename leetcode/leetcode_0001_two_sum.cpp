@@ -2,6 +2,7 @@
 // Created by ByteDance on 2024/2/7.
 //
 
+#include "leetcode.h"
 #include <vector>
 #include <unordered_map>
 
@@ -15,4 +16,8 @@ std::vector<int> twoSum(std::vector<int>& nums, int target) {
         hashtable[nums[i]] = i;
     }
     return {};
+}
+
+std::vector<int> Solution::twoSum(std::vector<int> &nums, int target) {
+    return twoSum(nums, target);
 }

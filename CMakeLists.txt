@@ -12,15 +12,16 @@ enable_testing()
 
 ## Leetcode
 add_library(leetcode
-        leetcode/leetcode_0001_two_sum.cpp
         leetcode/leetcode.h
+        leetcode/leetcode_0001_two_sum.cpp
+        leetcode/leetcode_2641_cousins_in_binary_tree_2.cpp
 )
 
-add_executable(leetcode_tests ""
-        leetcode/leetcode_0001_two_sum_test.cpp)
+add_executable(leetcode_tests "")
 target_sources(leetcode_tests
         PRIVATE
         "leetcode/leetcode_0001_two_sum_test.cpp"
+        "leetcode/leetcode_2641_cousins_in_binary_tree_2_test.cpp"
 )
 
 target_link_libraries(leetcode_tests leetcode gmock gtest gtest_main)
