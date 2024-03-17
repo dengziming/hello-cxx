@@ -8,6 +8,7 @@
 #endif //HELLO_CXX_LEETCODE_H
 
 #include <vector>
+#include <string>
 
 
 // Definition for a binary tree node.
@@ -30,6 +31,8 @@ class Solution {
 
     // https://leetcode.com/problems/palindrome-number/
     bool isPalindrome(int x);
+
+    int lengthOfLongestSubstring(std::string s);
 };
 
 std::vector<int> twoSum(std::vector<int>& nums, int target);
