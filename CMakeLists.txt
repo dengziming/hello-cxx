@@ -15,6 +15,7 @@ add_library(leetcode
         leetcode/leetcode.h
         leetcode/leetcode_0001_two_sum.cpp
         leetcode/leetcode_2641_cousins_in_binary_tree_2.cpp
+        leetcode/leetcode_0009_palindrome_number.cpp
 )
 
 add_executable(leetcode_tests ""
@@ -23,6 +24,7 @@ target_sources(leetcode_tests
         PRIVATE
         "leetcode/leetcode_0001_two_sum_test.cpp"
         "leetcode/leetcode_2641_cousins_in_binary_tree_2_test.cpp"
+        leetcode/leetcode_0009_palindrome_number_test.cpp
 )
 
 target_link_libraries(leetcode_tests leetcode gmock gtest gtest_main)

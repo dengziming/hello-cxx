@@ -27,6 +27,9 @@ class Solution {
     std::vector<int> twoSum(std::vector<int>& nums, int target);
     // https://leetcode.cn/problems/cousins-in-binary-tree-ii/
     TreeNode* replaceValueInTree(TreeNode* root);
+
+    // https://leetcode.com/problems/palindrome-number/
+    bool isPalindrome(int x);
 };
 
 std::vector<int> twoSum(std::vector<int>& nums, int target);
