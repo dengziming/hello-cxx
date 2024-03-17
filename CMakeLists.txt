@@ -17,7 +17,8 @@ add_library(leetcode
         leetcode/leetcode_2641_cousins_in_binary_tree_2.cpp
 )
 
-add_executable(leetcode_tests "")
+add_executable(leetcode_tests ""
+        leetcode/hello_stl_test.cpp)
 target_sources(leetcode_tests
         PRIVATE
         "leetcode/leetcode_0001_two_sum_test.cpp"
