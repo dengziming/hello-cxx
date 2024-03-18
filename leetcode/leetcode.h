@@ -33,6 +33,9 @@ class Solution {
     bool isPalindrome(int x);
 
     int lengthOfLongestSubstring(std::string s);
+
+    // https://leetcode.com/problems/longest-palindromic-substring/
+    std::string longestPalindrome(std::string s);
 };
 
 std::vector<int> twoSum(std::vector<int>& nums, int target);

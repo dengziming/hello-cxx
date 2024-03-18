@@ -17,6 +17,7 @@ add_library(leetcode
         leetcode/leetcode_2641_cousins_in_binary_tree_2.cpp
         leetcode/leetcode_0009_palindrome_number.cpp
         leetcode/leetcode_0003_longest_substring_without_repeating_characters.cpp
+        leetcode/leetcode_0005_longest_palindromic_substring.cpp
 )
 
 add_executable(leetcode_tests ""
@@ -27,6 +28,7 @@ target_sources(leetcode_tests
         "leetcode/leetcode_2641_cousins_in_binary_tree_2_test.cpp"
         leetcode/leetcode_0009_palindrome_number_test.cpp
         leetcode/leetcode_0003_longest_substring_without_repeating_characters_test.cpp
+        leetcode/leetcode_0005_longest_palindromic_substring_test.cpp
 )
 
 target_link_libraries(leetcode_tests leetcode gmock gtest gtest_main)
