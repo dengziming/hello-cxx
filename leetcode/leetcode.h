@@ -10,6 +10,8 @@
 #include <vector>
 #include <string>
 
+using namespace std;
+
 
 // Definition for a binary tree node.
 struct TreeNode {
@@ -36,6 +38,9 @@ class Solution {
 
     // https://leetcode.com/problems/longest-palindromic-substring/
     std::string longestPalindrome(std::string s);
+
+    // https://leetcode.com/problems/zigzag-conversion/
+    string convert(string s, int numRows);
 };
 
 std::vector<int> twoSum(std::vector<int>& nums, int target);
