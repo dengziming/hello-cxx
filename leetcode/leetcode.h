@@ -41,6 +41,9 @@ class Solution {
 
     // https://leetcode.com/problems/zigzag-conversion/
     string convert(string s, int numRows);
+
+    // https://leetcode.com/problems/longest-valid-parentheses/
+    int longestValidParentheses(string s);
 };
 
 std::vector<int> twoSum(std::vector<int>& nums, int target);

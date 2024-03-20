@@ -17,6 +17,8 @@ std::string Solution::longestPalindrome(std::string s) {
     }
 
     std::string palindrome[s.length()];
+
+    // C++ 小白: 这里必须初始化，等下在 for 循环的时候初始化 `flag[i] = vector<bool>(s.length)` 会不符合预期？
     std::vector<std::vector<bool>> palindromeFlag(s.length(), vector<bool>(s.length()));
 
     for (int right = 0; right < s.length(); ++right) {
