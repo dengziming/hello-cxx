@@ -20,6 +20,7 @@ add_library(leetcode
         leetcode/leetcode_0005_longest_palindromic_substring.cpp
         leetcode/leetcode_0006_zigzag_conversion.cpp
         leetcode/leetcode_0032_longest_valid_parentheses.cpp
+        leetcode/leetcode_0046_peermutations.cpp
 )
 
 add_executable(leetcode_tests ""

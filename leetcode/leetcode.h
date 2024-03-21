@@ -44,6 +44,9 @@ class Solution {
 
     // https://leetcode.com/problems/longest-valid-parentheses/
     int longestValidParentheses(string s);
+
+    // https://leetcode.com/problems/permutations/
+    vector<vector<int>> permute(vector<int>& nums)
 };
 
 std::vector<int> twoSum(std::vector<int>& nums, int target);
