@@ -21,6 +21,7 @@ add_library(leetcode
         leetcode/leetcode_0006_zigzag_conversion.cpp
         leetcode/leetcode_0032_longest_valid_parentheses.cpp
         leetcode/leetcode_0046_peermutations.cpp
+        leetcode/leetcode_0004_two_sorted_arrays.cpp
 )
 
 add_executable(leetcode_tests ""
@@ -34,6 +35,7 @@ target_sources(leetcode_tests
         leetcode/leetcode_0005_longest_palindromic_substring_test.cpp
         leetcode/leetcode_0006_zigzag_conversion_test.cpp
         leetcode/leetcode_0032_longest_valid_parentheses_test.cpp
+        leetcode/leetcode_0004_two_sorted_arrays_test.cpp
 )
 
 target_link_libraries(leetcode_tests leetcode gmock gtest gtest_main)

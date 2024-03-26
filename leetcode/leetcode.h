@@ -46,7 +46,10 @@ class Solution {
     int longestValidParentheses(string s);
 
     // https://leetcode.com/problems/permutations/
-    vector<vector<int>> permute(vector<int>& nums)
+    vector<vector<int>> permute(vector<int>& nums);
+
+    // https://leetcode.com/problems/median-of-two-sorted-arrays/
+    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2);
 };
 
 std::vector<int> twoSum(std::vector<int>& nums, int target);
