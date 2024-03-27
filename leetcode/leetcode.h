@@ -50,6 +50,9 @@ class Solution {
 
     // https://leetcode.com/problems/median-of-two-sorted-arrays/
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2);
+
+    // https://leetcode.com/problems/generate-parentheses/
+    vector<string> generateParenthesis(int n);
 };
 
 std::vector<int> twoSum(std::vector<int>& nums, int target);
