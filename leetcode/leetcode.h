@@ -53,6 +53,9 @@ class Solution {
 
     // https://leetcode.com/problems/generate-parentheses/
     vector<string> generateParenthesis(int n);
+
+    // https://leetcode.com/problems/different-ways-to-add-parentheses/
+    vector<int> diffWaysToCompute(string expression);
 };
 
 std::vector<int> twoSum(std::vector<int>& nums, int target);
