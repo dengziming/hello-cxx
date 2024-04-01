@@ -25,6 +25,7 @@ add_library(leetcode
         leetcode/leetcode_0022_generate_parentheses.cpp
         leetcode/leetcode_0241_different_ways_to_add_parentheses.cpp
         leetcode/leetcode_0322_coin_change.cpp
+        leetcode/leetcode_0518_coin_change_2.cpp
 )
 
 add_executable(leetcode_tests ""

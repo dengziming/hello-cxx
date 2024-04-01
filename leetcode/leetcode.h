@@ -59,6 +59,9 @@ class Solution {
 
     // https://leetcode.com/problems/coin-change/
     int coinChange(vector<int>& coins, int amount);
+
+    // https://leetcode.com/problems/coin-change-ii/description/
+    int change(int amount, vector<int>& coins);
 };
 
 std::vector<int> twoSum(std::vector<int>& nums, int target);
