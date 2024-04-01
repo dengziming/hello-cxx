@@ -56,6 +56,9 @@ class Solution {
 
     // https://leetcode.com/problems/different-ways-to-add-parentheses/
     vector<int> diffWaysToCompute(string expression);
+
+    // https://leetcode.com/problems/coin-change/
+    int coinChange(vector<int>& coins, int amount);
 };
 
 std::vector<int> twoSum(std::vector<int>& nums, int target);

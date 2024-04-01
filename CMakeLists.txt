@@ -24,6 +24,7 @@ add_library(leetcode
         leetcode/leetcode_0004_two_sorted_arrays.cpp
         leetcode/leetcode_0022_generate_parentheses.cpp
         leetcode/leetcode_0241_different_ways_to_add_parentheses.cpp
+        leetcode/leetcode_0322_coin_change.cpp
 )
 
 add_executable(leetcode_tests ""
@@ -40,6 +41,7 @@ target_sources(leetcode_tests
         leetcode/leetcode_0004_two_sorted_arrays_test.cpp
         leetcode/leetcode_0022_generate_parentheses_test.cpp
         leetcode/leetcode_0241_different_ways_to_add_parentheses_test.cpp
+        leetcode/leetcode_0322_coin_change_test.cpp
 )
 
 target_link_libraries(leetcode_tests leetcode gmock gtest gtest_main)
